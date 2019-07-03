@@ -26,6 +26,15 @@ conda create --name caffe-py27 python=2.7
 cd ~/anaconda3/envs/caffe-py27/
 git clone https://github.com/ShowLo/caffe.git
 ```
+
+&emsp;If SSD is to be used later, you need to use the following commands here to switch to the SSD branch:
+
+```
+git checkout ssd
+```
+
+&emsp;At this point, you should be able to find a folder named `ssd` in the `examples` folder.
+
 ## Activate the Environment, Install opencv
 
 &emsp;It's better to specify the installation of version 3.1.0 opencv from the beginning:
